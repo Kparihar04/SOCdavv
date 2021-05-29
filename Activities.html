@@ -40,47 +40,29 @@
                 padding: 6px;
                 /* font-size: 50px; */
             }
-
-            .con h3 {
-                text-align: center;
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                border-bottom: 2px solid black;
-                padding-bottom: 3px;
-            }
-
-            .notify li {
-                padding: 10px;
-            }
-
-            .con {
+            .bor div{
+                /* border: 1px solid black; */
                 background-color: whitesmoke;
-                margin: 10px;
-                border-radius: 8px;
-                margin-left: 10px;
-                border: 2px solid rgb(0, 0, 0);
             }
-
-            h2 {
-                text-align: center;
-                margin: 25px;
+            .card img{
+                height:200px;
             }
-
         </style>
     </head>
 
     <body>
         <!-- Top School of Chemical -->
         <div class="container-fluid ">
-            <div class="row ">
-                <div class="col-sm-2 top" id="top1"><img src="Images/davvlogo.png" alt=""></div>
-                <div class="col-sm-2 top" id="top2"><img src="Images/CHEM-LOGO.png" alt=""></div>
-                <div class="col-sm-6 top" id="top3"> School of Chemical Science <br> रसायन विज्ञान अध्ययनशाला</div>
-                <div class="col-sm-2 top" id="top4"><img src="Images/struct.png" width="90%" alt=""></div>
-                <!-- <div class="col-sm">.col-sm</div> -->
+                <div class="row ">
+                    <div class="col-sm-2 top" id="top1"><img src="Images/davvlogo.png" alt=""></div>
+                    <div class="col-sm-2 top" id="top2"><img src="Images/CHEM-LOGO.png" alt=""></div>
+                    <div class="col-sm-6 top" id="top3"> School of Chemical Science <br> रसायन विज्ञान अध्ययनशाला</div>
+                    <div class="col-sm-2 top" id="top4"><img src="Images/struct.png" width="90%" alt=""></div>
+                </div>
             </div>
             <div class="row">
                 <div class="col-3 top" id="top5"><img src="Images/CHEM-LOGO.png" alt=""></div>
-                <div class="col-9 top" id="top6"><strong> School of Chemical Science</strong></div>
+                <div class="col-9 top" id="top6"><strong> School of Chemical Science<br> रसायन विज्ञान अध्ययनशाला</strong></div>
             </div>
         </div>
 
@@ -105,10 +87,10 @@
                             <a class="nav-link" href="about.html">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="staff.html">Staff</a>
+                            <a class="nav-link " href="staff.html">Staff</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="admission.html">Admission</a>
+                            <a class="nav-link " href="admission.html">Admission</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -125,10 +107,10 @@
                             <a class="nav-link" href="student.html">Student</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Activities.html">Activity</a>
+                            <a class="nav-link active" href="Activities.html">Activity</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">IQAC</a>
+                            <a class="nav-link" href="http://www.iqac.dauniv.ac.in/">IQAC</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Alumini.html">Alumini</a>
@@ -139,46 +121,88 @@
         </nav>
 
         <!-- Content-->
-        <div class="container-fluid">
-            <div class="row col-sm-12">
-                <h2 ><Strong>PROGRAMMES</Strong></h2>
-                <div class="col-xl-12">
-                    <table class="table">
-                        <thead class="thead-primary " style="background-color: cornflowerblue;">
-                            <tr>
-                                <th scope="col">Name of Course</th>
-                                <th scope="col">Eligibility</th>
-                                <th scope="col">Duration</th>
-                                <th scope="col">Seats</th>
-                                <th scope="col">Mode of Admission</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">M.Sc Chemistry</th>
-                                <td>B.Sc. 50% Marks</td>
-                                <td>4 Sem</td>
-                                <td>40</td>
-                                <td>Merit in Entrance Examination and Counselling</td>
-
-                            </tr>
-                            <tr>
-                                <th scope="row">M.Sc Pharmameutical Chemistry</th>
-                                <td>B.Sc. 50% Marks</td>
-                                <td>4 Sem</td>
-                                <td>20</td>
-                                <td>Merit in Entrance Examination and Counselling</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Ph.D.</th>
-                                <td>As per the Ordinance</td>
-                                <td></td> <td></td>
-                                <td>NET/DET Qualified</td>
-                            </tr>
-                        </tbody>
-                    </table>
+        <div class="container-fluid col-form-label-sm bor">
+            <h1 style="text-align: center;"><strong>Guests of Honour</strong></h1>
+            <!-- Row 1 -->
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card" style="width: 15rem;">
+                        <img src="Images/Guest of Honour/Dr.J.S.Yadav.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Dr.J.S.Yadav</h5>
+                          <p class="card-text">IICT Hyderabad</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 15rem;">
+                        <img src="Images/Guest of Honour/Dr.R.S.Mali.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Dr. R.S. Mali</h5>
+                          <p class="card-text">North Maharashtra University, Jalgaon</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 15rem;">
+                        <img src="Images/Guest of Honour/Dr.P.S.Kalsi.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Dr. P.S. Kalsi</h5>
+                          <p class="card-text">Punjab Technical University, Ludhiana</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 15rem;">
+                        <img src="Images/Guest of Honour/Dr.D.S.Rawat.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Dr. D.S. Rawat</h5>
+                          <p class="card-text">University of Delhi.</p>
+                        </div>
+                      </div>
                 </div>
             </div>
+
+            <!-- Row 2 -->
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card" style="width: 15rem;">
+                        <img src="Images/Guest of Honour/Dr.AkhileshVerma.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Dr. Akhilesh Verma</h5>
+                          <p class="card-text">University of Delhi</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 15rem;">
+                        <img src="Images/Guest of Honour/Dr.B.Vishwanathan.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Dr. B. Vishwanathan</h5>
+                          <p class="card-text"> IIT Madras</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 15rem;">
+                        <img src="Images/Guest of Honour/Dr.DeepakGupta.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Dr. Deepak Gupta</h5>
+                          <p class="card-text">IIT Kanpur</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 15rem;">
+                        <img src="Images/Guest of Honour/Dr.S.K.Singh.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Dr. S.K. Singh</h5>
+                          <p class="card-text">IIT Indore</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
         </div>
 
         <!--FOOTER -->
